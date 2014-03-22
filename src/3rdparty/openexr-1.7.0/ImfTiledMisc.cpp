@@ -44,6 +44,9 @@
 #include <ImfMisc.h>
 #include <ImfChannelList.h>
 
+#if _MSC_VER 1800
+#include <algorithm>
+#endif
 
 namespace Imf {
 

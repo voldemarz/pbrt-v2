@@ -10,6 +10,10 @@
 #include <half.h>
 #include <assert.h>
 
+#if _MSC_VER 1800
+#include <algorithm>
+#endif
+
 using namespace Imf;
 using namespace Imath;
 

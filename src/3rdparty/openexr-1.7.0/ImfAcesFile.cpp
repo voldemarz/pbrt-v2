@@ -43,6 +43,10 @@
 #include <ImfStandardAttributes.h>
 #include <Iex.h>
 
+#if _MSC_VER 1800
+#include <algorithm>
+#endif
+
 using namespace std;
 using namespace Imath;
 using namespace Iex;
